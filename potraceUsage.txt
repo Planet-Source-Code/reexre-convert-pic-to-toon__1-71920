@@ -1,0 +1,63 @@
+Usage
+	
+
+Potrace 1.8. Transforms bitmaps into vector graphics.
+
+Usage: potrace [options] [file...]
+General options:
+ -h, --help                 - print this help message and exit
+ -v, --version              - print version info and exit
+ -l, --license              - print license info and exit
+ -V, --show-defaults        - print compiled-in defaults and exit
+ --progress                 - show progress bar
+Input/output options:
+ -o, --output file          - output to file
+Backend selection:
+ -e, --eps                  - EPS backend (encapsulated postscript) (default)
+ -p, --postscript           - Postscript backend
+ -s, --svg                  - SVG backend (scalable vector graphics)
+ -g, --pgm                  - PGM backend (portable greymap)
+ -b, --backend name         - select backend by name
+Algorithm options:
+ -z, --turnpolicy policy    - how to resolve ambiguities in path decomposition
+ -t, --turdsize n           - suppress speckles of up to this size (default 2)
+ -a, --alphamax n           - corner threshold parameter (default 1)
+ -n, --longcurve            - turn off curve optimization
+ -O, --opttolerance n       - curve optimization tolerance (default 0.2)
+ -u, --unit n               - quantize output to 1/unit pixels (default 10)
+ -d, --debug n              - produce debugging output of type n (n=1,2,3)
+Scaling and placement options:
+ -W, --width dim            - width of output image
+ -H, --height dim           - height of output image
+ -r, --resolution n[xn]     - resolution (in dpi)
+ -x, --scale n[xn]          - scaling factor (pgm backend)
+ -S, --stretch n            - yresolution/xresolution
+ -A, --rotate angle         - rotate counterclockwise by angle
+ -M, --margin dim           - margin
+ -L, --leftmargin dim       - left margin
+ -R, --rightmargin dim      - right margin
+ -T, --topmargin dim        - top margin
+ -B, --bottommargin dim     - bottom margin
+Output options, supported by some backends:
+ -C, --color #rrggbb        - set line color (default black)
+ --fillcolor #rrggbb        - set fill color (default transparent)
+ --opaque                   - make white shapes opaque
+ --group                    - group related paths together
+Postscript/EPS options:
+ -P, --pagesize format      - page size (default is letter)
+ -c, --cleartext            - do not compress the output
+ -2, --level2               - use postscript level 2 compression (default)
+ -3, --level3               - use postscript level 3 compression
+ -q, --longcoding           - do not optimize for file size
+PGM options:
+ -G, --gamma n              - gamma value for anti-aliasing (default 2.2)
+Frontend options:
+ -k, --blacklevel n         - black/white cutoff in input file (default 0.5)
+ -i, --invert               - invert bitmap
+
+Dimensions can have optional units, e.g. 6.5in, 15cm, 100pt.
+Default is inches (or pixels for pgm and gimppath backends).
+Possible input file formats are: pnm (pbm, pgm, ppm), bmp.
+Backends are: eps, postscript, ps, pdf, svg, pgm, gimppath, xfig.
+
+For detailed usage information, see the potrace(1) man page. 
