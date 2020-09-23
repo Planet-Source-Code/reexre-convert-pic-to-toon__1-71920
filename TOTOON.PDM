@@ -1,0 +1,128 @@
+[Root]
+Most Recent Package=Pacchetto di installazione standard To Toon
+
+
+[Package|Pacchetto di installazione standard To Toon|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\ROBERTO\VB\potrace-1.8 FreeImage3100\INSTALL
+
+[Package|Pacchetto di installazione standard To Toon|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Pacchetto di installazione standard To Toon|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Pacchetto di installazione standard To Toon|Files Found]
+
+[Package|Pacchetto di installazione standard To Toon|Files Released]
+
+[Package|Pacchetto di installazione standard To Toon|Missing Dependency Information]
+C:\ROBERTO\VB\potrace-1.8 FreeImage3100\FreeImage.dll=
+C:\WINDOWS\system32\msimg32.dll=
+C:\WINDOWS\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.0.0_x-ww_8d353f13\GdiPlus.dll=
+
+[Package|Pacchetto di installazione standard To Toon|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Pacchetto di installazione standard To Toon|Files Added]
+C:\ROBERTO\VB\potrace-1.8 FreeImage3100\potrace.exe=
+
+[Package|Pacchetto di installazione standard To Toon|Files Removed]
+
+[Package|Pacchetto di installazione standard To Toon|Files In Project]
+C:\ROBERTO\VB\potrace-1.8 FreeImage3100\ToTOON.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6IT.DLL=Yes
+C:\WINDOWS\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.0.0_x-ww_8d353f13\GdiPlus.dll=Yes
+C:\WINDOWS\system32\msimg32.dll=Yes
+C:\ROBERTO\VB\potrace-1.8 FreeImage3100\FreeImage.dll=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\scrrnit.dll=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGIT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCIT.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\ROBERTO\VB\potrace-1.8 FreeImage3100\potrace.exe=Yes
+
+[Package|Pacchetto di installazione standard To Toon|Configure Registry Files]
+Applicable=No
+
+[Package|Pacchetto di installazione standard To Toon|Configure Remote Servers]
+Applicable=No
+
+[Package|Pacchetto di installazione standard To Toon|Install Locations]
+C:\ROBERTO\VB\potrace-1.8 FreeImage3100\ToTOON.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6IT.DLL=$(AppPath)
+C:\WINDOWS\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.0.0_x-ww_8d353f13\GdiPlus.dll=$(AppPath)
+C:\WINDOWS\system32\msimg32.dll=$(AppPath)
+C:\ROBERTO\VB\potrace-1.8 FreeImage3100\FreeImage.dll=$(AppPath)
+C:\WINDOWS\system32\scrrun.dll=$(AppPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrnit.dll=$(AppPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(AppPath)
+C:\WINDOWS\system32\CMDLGIT.DLL=$(AppPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(AppPath)
+C:\WINDOWS\system32\MSCMCIT.DLL=$(AppPath)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\ROBERTO\VB\potrace-1.8 FreeImage3100\potrace.exe=$(AppPath)
+
+[Package|Pacchetto di installazione standard To Toon|Configure Shared Files]
+Applicable=Yes
+C:\ROBERTO\VB\potrace-1.8 FreeImage3100\ToTOON.exe=No
+C:\WINDOWS\system32\VB6IT.DLL=Yes
+C:\WINDOWS\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.0.0_x-ww_8d353f13\GdiPlus.dll=Yes
+C:\WINDOWS\system32\msimg32.dll=Yes
+C:\ROBERTO\VB\potrace-1.8 FreeImage3100\FreeImage.dll=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\scrrnit.dll=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGIT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCIT.DLL=Yes
+C:\ROBERTO\VB\potrace-1.8 FreeImage3100\potrace.exe=No
+
+[Package|Pacchetto di installazione standard To Toon|Distribution]
+Type=single
+Size=1.44 MB
+Title=TOTOON
+
+[Package|Pacchetto di installazione standard To Toon|Package]
+PackageFolder=C:\ROBERTO\VB\potrace-1.8 FreeImage3100\INSTALL
+ProjectFolder=C:\ROBERTO\VB\potrace-1.8 FreeImage3100
+ServerSideCab=
+File1=C:\ROBERTO\VB\potrace-1.8 FreeImage3100\INSTALL\setup.exe
+File2=C:\ROBERTO\VB\potrace-1.8 FreeImage3100\INSTALL\Setup.Lst
+File3=C:\ROBERTO\VB\potrace-1.8 FreeImage3100\INSTALL\ToTOON.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Pacchetto di installazione standard To Toon|IconGroups]
+Group0=TOTOON
+PrivateGroup0=Falso
+Parent0=$(Programs)
+
+[Package|Pacchetto di installazione standard To Toon|TOTOON]
+Icon1=ToTOON.exe
+Title1=TOTOON
+StartIn1=$(AppPath)
+Key1=Icon1

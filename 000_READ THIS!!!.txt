@@ -1,0 +1,32 @@
+For COLOR QUANTIZATION 
+This Program Uses FreeImage Lib.
+(http://freeimage.sourceforge.net/download.html)
+
+Can download it from Web or Rename these files
+
+FreeImage.dll.TXT
+FreeImage.lib.TXT
+
+to
+
+FreeImage.dll
+FreeImage.lib
+
+
+'----------------------------------------------------------
+For VECTOR GRAPHICS
+
+It Uses POTRACE.EXE too
+(http://potrace.sourceforge.net/#downloading)
+
+Can Download it from Web or Rename this file 
+
+potrace.exe.TXT
+
+to
+
+potrace.exe
+
+
+For me no problem with these files...
+But Use at your own Risk!
